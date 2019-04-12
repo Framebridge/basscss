@@ -27,6 +27,7 @@
 .display-none { display: none !important }
 
 @custom-media --breakpoint-xs (max-width: 40em);
-@custom-media --breakpoint-sm-md (min-width: 40em) and (max-width: 51.9375em); // 0.9375em is 1 pixel less than 1em at 16px default
-@custom-media --breakpoint-md-lg (min-width: 52em) and (max-width: 63.9375em); // 0.9375em is 1 pixel less than 1em at 16px default
+/* 0.9375em is 1 pixel less than 1em at 16px default */
+@custom-media --breakpoint-sm-md (min-width: 40em) and (max-width: 51.9375em);
+@custom-media --breakpoint-md-lg (min-width: 52em) and (max-width: 63.9375em);
 @custom-media --breakpoint-lg (min-width: 64em);
